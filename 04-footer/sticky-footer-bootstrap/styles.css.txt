@@ -1,0 +1,29 @@
+/*====HELPER STYLES====*/
+html{
+  background-color: grey;
+}
+.footer{
+  background-color: rgba(10, 122, 98, 0.91);
+}
+.content{
+  background-color: rgba(204, 37, 76, 0.91);
+}
+
+/*====MAIN STYLES====*/
+
+html{
+  min-height: 100%;
+  position: relative;
+}
+body{
+  margin-bottom:50px;
+}
+.footer{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  height: 50px;
+}
+.content{
+  height: 150px;
+}
