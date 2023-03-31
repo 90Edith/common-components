@@ -1,0 +1,17 @@
+/*====HELPER STYLES====*/
+.footer{
+  background-color: rgba(10, 122, 98, 0.91);
+}
+.content{
+  background-color: rgba(204, 37, 76, 0.91);
+}
+
+/*====MAIN STYLES====*/
+
+
+.content {
+  min-height: calc(100vh - 50px);
+}
+.footer {
+  height: 100px;
+}
