@@ -1,0 +1,81 @@
+/*====BASIC STYLES====*/
+
+*{
+  box-sizing: border-box;
+  font-family:'Inconsolata', monospace;
+}
+
+/*====NAVIGATION BAR STYLES====*/
+
+nav{
+  background-color: black;
+  padding: 1rem;
+ 
+}
+@media (min-width: 600px){
+  nav{    
+    position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
+  }
+}
+
+.nav-button{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1rem;
+  text-align: center;
+  padding: .5rem 1rem;
+  letter-spacing: 2px;
+  display: block;
+}
+
+.sign-up{
+  border: 1px solid  rgba(158, 155, 157, 1);
+  border-radius: 9999px;
+}
+
+.nav-button:hover{
+  color: rgba(158, 155, 157, 1);
+  transition: color .15s ease-in-out;
+}
+.sign-up:hover{
+  color: black;
+  background-color: white;
+  border-color: white;
+   transition: background-color .15s ease-in-out;
+  
+}
+@media (min-width: 600px){
+  .nav-button{
+    float: right;
+  }
+  .home{
+    float:left;
+  }
+}
+@media (min-width: 600px) {
+
+  /* Clearfix */
+    nav::after {
+    content: "";
+    clear: both;
+    display: block;
+  }
+
+}
+
+/*====ARTICLE STYLES====*/
+
+article{
+  margin-top: 5.875rem;
+}
+p{
+  font-size: 1.2rem;
+  text-align: left;
+  width: 60%;
+  margin-bottom: 2rem;
+  margin: auto;
+  padding: 1.3rem;
+}
