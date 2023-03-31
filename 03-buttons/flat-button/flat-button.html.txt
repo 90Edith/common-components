@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <h1>Flat button example<h1>
+      <div>
+        <a class="btn" href="#">Previous</a>
+        <a class="btn" href="#">Next</a>
+      </div>
+          
+  </body>
+</html>
