@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#" class="nav-button active">Home</a></li>
+        <li><a href="#" class="nav-button">News</a></li>
+        <li><a href="#" class="nav-button">Blog</a></li>
+        <li><a href="#" class="nav-button">About us</a></li>
+        <li><a href="#" class="nav-button">Contact</a></li>
+      </ul>
+    </nav>
+  </body>
+</html>
+
+
+
+
+
+
+
