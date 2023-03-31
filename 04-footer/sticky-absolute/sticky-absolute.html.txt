@@ -1,0 +1,13 @@
+<html>
+  <head></had>
+  <body>
+    <div class="wrapper">
+      <main class="content">
+        <span>content</span>
+      </main>
+      <footer class="footer">
+        <span>footer</span>
+      </footer>
+    </div>
+  </body>
+</html>  
